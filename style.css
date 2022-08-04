@@ -1,0 +1,663 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;    
+}
+
+
+
+/***********************/
+/********HEADER*********/
+/***********************/
+
+.logoreservia{
+    width: 100px;
+    margin-right:auto;
+    
+
+}
+
+
+.mainheader{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 20px;
+    
+}
+
+header nav{
+    display: flex;
+}
+
+header nav a {
+    display: flex;
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+    padding-top: 31px;
+    
+}
+
+header nav   :hover{
+    color: #0065FC;
+    border-top: 3px #0065FC solid ;
+}
+
+.option{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+}
+
+/****************************/
+/********MAINSECTION*********/
+/****************************/
+
+.mainsection {
+    margin: 20px;
+    width: 90%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.shearchbar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    
+}
+
+.shearchbar .map {
+    border: 1px #F2F2F2 ;
+    border-radius: 1rem 0 0 1rem;
+    padding: 1.1rem;
+    background-color:#F2F2F2 ;
+
+} 
+
+.shearchbar input {
+padding: 1rem;
+border: #F2F2F2 1px solid;
+width: 170px;
+}
+
+.loupe{
+    display: none;
+}
+
+.shearchbutton {
+    padding: 1.1rem;
+    border-radius: 0 1rem 1rem 0;
+    border:none;
+    background-color: #0065FC;
+    color: white;
+    width:130px;
+}
+.shearchbutton:hover {
+
+cursor: pointer;
+}
+
+/****************************/
+/********MAINSECTION*********/
+/****************************/
+
+
+.Filtersshearch {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+
+    .Filtersshearch  div:hover{
+        transform: scale(1.05);
+    }
+
+.Filtersshearch  div{
+    display: flex;
+    align-items: center;
+    margin: 0rem 2rem 0rem 2rem;
+    padding: 10px 0 10px 0;
+    transition: 1s;
+}
+
+.Filtersshearch  i{
+    border: 1px rgb(222, 235, 255)  solid;
+    border-radius: 50%;
+    padding: 25px;
+    align-items: center;
+    background-color: #DEEBFF;
+    position: relative;
+    color: blue;
+    
+}
+
+.Filtersshearch  span{
+    border: 3px #d9d9d9 solid;
+    border-radius: 1rem 3rem 3rem 1rem;
+    width: auto;
+
+    margin: -50px;
+    text-align:end;
+    padding: 1.3rem;
+    padding-left: 60px;
+}
+
+.Filtersshearch  a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+
+/********INFO*********/
+
+.info {
+    display: flex;
+    align-items: center;
+    
+}
+
+.fas.fa-info {
+    display: flex;
+    justify-content: center;
+    min-width: 1rem;
+    max-width: 1rem;
+    border: #F2F2F2 1px solid;
+    border-radius: 100%;
+    padding: 10px;
+    margin: 20px;
+    color: #0065FC;
+}
+
+.starsgray{
+    color: lightgrey;
+}
+
+
+/****************************/
+/********MAIN HOSTING*********/
+/****************************/
+
+
+/* HOSTING IN MARSEILLE */
+
+.hosting1 h3,.hosting2  h3{
+    font-weight: bold;
+}
+
+.hosting1 img{
+    width: 200px;
+    height: 133px;
+    border-radius: 1.5rem 1.5rem 0 0;
+}
+.twoblocks{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.hostingmarseille{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    width: 60%;
+    height: 700px;
+}
+
+.hosting1{
+    margin: 0px 20px 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.hostingmarseille header{
+    margin-right: auto;
+    padding: 20px 0 0 20px;
+    
+}
+
+.hosting1 article{
+    width: 200px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 1.5rem;
+    background-color: white;
+    box-shadow: 0 0 16px gray;
+    font-size: 12px;
+
+}
+
+
+
+
+.hostingmarseille a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.afficherplus{
+    margin: 20px;
+}
+/* HOSTING POPULARY */
+
+
+
+.hosting2{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    height: 700px;
+    border-radius: 10px;
+    flex-direction: column;
+    width: 30%;
+    background-color: #F2F2F2;
+}
+
+.hostingpopulary header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 30px;
+}
+
+
+.hostingpopulary article{
+    flex-wrap: wrap;
+    width: 90%;
+    height: 148px;
+    background-color: white;
+    border-radius: 1.5rem;
+    margin: 20px auto ;
+    padding: 5px;
+    box-shadow: 0 0 16px gray;
+    font-size: 12px;
+
+}
+
+.hostingpopulary a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction:row ;
+}
+
+
+
+.hostingpopulary img{
+    width: 40%;
+    border-radius: 1.5rem 0 0 1.5rem;
+    height: 148px;
+    
+}
+
+ul{
+    display: flex;
+    color: blue;
+    list-style-type: none;
+    padding-left: 0px;
+    margin-top: 0px;
+    padding-bottom: 10px;
+}
+
+.hostingdescription{
+
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.hostingdescription ul{
+    margin-top: 50px;
+    padding: 0;
+    
+}
+
+/********* ACTIVITY*********/
+
+
+.activity img{
+    width: 100%;
+}
+
+.activity {
+    justify-content: center;
+    margin: 20px 20px 20px 0px;
+    border-radius: 3rem;
+    
+    
+}
+
+.activity header{
+    padding: 0 20px;
+    justify-content: start;
+}
+
+.allactivitys{
+    display: flex;
+    margin: 0px;
+}
+
+.block1activity, .block2activity{
+    display: flex;
+}
+
+.title h1{
+    display: flex;
+   justify-content: flex-start;
+   padding-left: 10px;
+}
+ 
+
+.imgarticle1{
+    height: 540px;
+    border-radius: 15px 15px 0 0;
+    width: 350px
+}
+.article1{
+    background-color: white;
+    box-shadow: 0 0 16px gray;
+    border-radius: 15px;
+    margin: 20px;
+    width: 50%;
+    text-align: center;
+    height: 625px;
+    padding-bottom: 20px;
+    height: 562px;
+
+}
+
+.doublearticle{
+    width: 50%;
+    
+}
+
+
+.imgarticle2{
+    border-radius: 15px 15px 0 0;
+    height: 275px;
+   
+}
+
+.article2{
+    margin: 20px;
+    background-color: white;
+    box-shadow: 0 0 16px gray;
+    border-radius: 15px;
+    text-align: center;
+}
+
+
+.ig{
+    height: 200px;
+}
+
+.fortdep{
+    height: 39%;
+}
+
+ .parcl{
+    height: 39%;
+    
+    
+}
+
+.ndame{
+    
+    height: 51%;
+}
+.ilefrioul {
+    height: 51%;
+    
+}
+
+.allactivitys h1 {
+    transform: translateY(-10px);
+    
+}
+
+
+/*********** FOOTER********** */
+
+footer{
+    
+    margin: 50px 20px 0 0;
+    background-color: #F2F2F2;
+    width: 100%;
+    height: auto;
+}
+
+.myfooter{
+    display:inline-flex;
+    margin: 10px;
+    
+    width: 100%;
+}
+
+.apropos, .noshébergements, .Assistance{
+
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin-right: 200px;
+    width: 600px;
+   
+
+}
+
+footer a,h2 {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+
+@media screen and (max-width : 2000px){
+    .hosting1 article {
+        width: 28%;
+    }
+    .hosting1 img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width : 1350px){
+.allactivitys{
+    display: flex;
+    flex-direction: column;
+}
+}
+@media screen and (max-width : 1217px){
+
+    .twoblocks{
+        flex-direction: column-reverse;
+    }
+    .hostingmarseille{
+        width: 95%;
+        margin: 20px;
+    }
+    .hostingmarseille article{
+        width: 30%;
+        height: 240px;
+    }
+    .hosting1 img{
+        width: 100%;
+        height: 60%;
+    }
+
+    .hosting2{
+        width: 95%;
+        height: 750px;
+        margin: 20px;
+    }
+
+    .hosting2 article{
+        padding: 5px;
+        height: 170px;
+    }
+    .hostingpopulary img{
+        height: 170px;
+        width: 40%;
+    }
+
+    .hostingpopulary header{
+        margin-left: 55px;
+    }
+
+
+}
+
+@media screen and (max-width : 992px) {
+    .hosting1{
+        margin-bottom: 40px;
+    }
+    
+   
+    .hosting1 article{
+        width: 95%;
+        height: 300px;
+    }
+    .hosting1 img{
+        height: 65%;
+        
+    }
+    
+    
+    .hostingmarseille{
+        height: auto;
+        background-color: white;
+    }
+    
+    .myfooter{
+        flex-direction: column;
+    }
+}
+
+        
+@media screen and (max-width : 768px) {
+    .logoreservia{
+        justify-content: center;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .hostingmarseille{
+        background-color: white;
+    }
+    
+    .shearchbar{
+        justify-content: center;
+    }
+    
+    
+    .shearchbar input {
+        width: 80%;
+    }
+
+    .loupe{
+        display: block;
+    }
+
+    #rechercher{
+        display: none;
+    }
+
+    .shearchbar button{
+        width: auto;
+    }
+    .Filtersshearch h1{
+        margin-right: 100%;
+    }
+
+    footer{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        width: 100%;
+    }
+    footer div{
+        align-items: center;
+    }
+    .myfooter{
+        margin: 0;
+    }
+    .myfooter div{
+        margin-right: 0;
+    }
+
+    .activity header{
+        padding: 5px;
+    } 
+
+    .hostingpopulary header{
+        margin-left: 30px;
+    }
+
+    .block1activity,.block2activity{
+        flex-direction: column;
+        
+    }
+    .article1{
+        width: 98%;
+    }
+
+    .activity{
+        margin: 5px;
+    }
+    
+    .article2{
+        height: 300px;
+        width: 98%;
+        margin: 5px;
+        margin-bottom: 15px;
+
+    }
+
+    .article1{
+        height: 280px;
+        margin: 5px;
+        margin-bottom: 15px;
+    }
+
+    .doublearticle{
+        width: auto;
+    }
+    .article1 img, .article2 img{
+        height: 250px;
+    }
+    
+    .twoblocks, .hosting1, .hosting2, .hostingmarseille, .hostingpopulary, .block1activity, .block2activity{
+        width: 100%;
+        margin: 0px;
+        border-radius: 0;
+    }
+
+    .mainheader{
+        flex-direction: column;
+        padding: 0;
+    }
+    .mainheader nav{
+        width: 100%;
+        border-bottom: #F2F2F2 4px solid;
+        
+        
+    }
+    .mainheader nav a{
+        width: 50%;
+       justify-content: center;
+    }
+    .mainheader nav a:hover{
+        border-bottom: 4px solid #0065FC;
+        border-width:100%;
+        border-top: none;
+    }
+  
+}
+
